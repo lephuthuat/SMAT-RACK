@@ -1,0 +1,11 @@
+-git clone "copy link file"enter
+ĐƯA FILE LÊN GITHUB
+-git status enter (xem có bao nhiêu file chưa add lên github)
+-git add * enter
+-git commit -m"ghi chú" enter
+-git push enter
+HOẶC
+-git commit -a -m"ghi chú"
+-git push enter
+**************
+-git pull enter(để đồng bộ những thay đổi trên github về loco máy)
