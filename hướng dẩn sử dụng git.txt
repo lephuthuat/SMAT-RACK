@@ -10,26 +10,26 @@ HOẶC
 **************
 -git pull enter(để đồng bộ những thay đổi trên github về local máy)
 **********************AAAAAAAAAAAAAAAAAA****************
-Hướng dẫn sử dụng git – Các lệnh cơ bản của GIT
-git config
-Một trong các lệnh được dùng nhiều nhất là git config, có thể được cấu hình cho cá nhân với các giá trị của emails, thuật toán cho diff, username và file format,… Ví dụ, command bên dưới có thể dùng cho email:
+-Hướng dẫn sử dụng git – Các lệnh cơ bản của GIT
+-git config
+-Một trong các lệnh được dùng nhiều nhất là git config, có thể được cấu hình cho cá nhân với các giá trị của emails, thuật toán cho diff, username và file format,… Ví dụ, command bên dưới có thể dùng cho email:
 
  git config --global user.email sam@google.com
-git init
+-git init
 Lệnh này được dùng để tạo GIT repository. Cách dùng:
 
 git init
-git add
+-git add
 Lệnh git add có thể được dùng để thêm file vào index. Ví dụ, command sau có thể thêm một file có tên temp.txt vào thư mục local vào index:
 
 git add temp.txt
-git clone
+-git clone
 Lệnh git clone được dùng với mục đích check out. Nếu respository phụ thuộc vào server từ xa, sử dụng:\
 
 git clone alex@93.188.160.58:/path/to/repository
 Ngược lại, nếu một bản repository đang hoạt động tại local đã được tạo, hãy dùng:
 git clone /path/to/repository
-git commit
+-git commit
 Lệnh git commit được dùng để commit thay đổi từ đầu. Hãy lưu ý là thay đổi không được áp dụng cho repository của server từ xa :
 
 git commit –m “Message to go with the commit here”
